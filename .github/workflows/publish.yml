@@ -28,6 +28,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Dev Container Feature Publish
         uses: devcontainers/action@v1.4.2
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           publish-features: "true"
           base-path-to-features: "./src"
