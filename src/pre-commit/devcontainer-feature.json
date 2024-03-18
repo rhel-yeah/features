@@ -1,6 +1,7 @@
 {
     "id": "pre-commit",
     "version": "0.0.1",
+    "name": "Pre-Commit",
     "description": "Installs pre-commit and starter config file",
     "dependsOn": {
         "features": [
