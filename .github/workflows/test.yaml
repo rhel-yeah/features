@@ -13,12 +13,10 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
-          - hello
+          - pre-commit
+          - terraform
         baseImage:
-          - debian:latest
-          - ubuntu:latest
-          - mcr.microsoft.com/devcontainers/base:ubuntu
+          - registry.access.redhat.com/ubi9
     steps:
       - uses: actions/checkout@v3
 
