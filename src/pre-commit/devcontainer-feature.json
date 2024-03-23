@@ -3,10 +3,5 @@
     "version": "0.0.1",
     "name": "Pre-Commit",
     "description": "Installs pre-commit and starter config file",
-    "dependsOn": {
-        "features": [
-            "rpm-python"
-        ]
-    },
     "postCreateCommand": "if ! test -f ./.pre-commit-config.yaml; then pre-commit sample-config > ./.pre-commit-config.yaml; fi && pre-commit install && pre-commit install-hooks"
 }
