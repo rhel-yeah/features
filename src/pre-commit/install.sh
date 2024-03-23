@@ -1,5 +1,13 @@
 #!/bin/bash
 
+if command -v git >/dev/null 2>&1; then
+echo 'System has git installed.'
+else
+  echo '[INFO] Installing git...'
+  dnf updateinfo
+  dnf install -y git
+fi
+
 if command -v pip >/dev/null 2>&1; then
 echo 'System has pip installed.'
 else
