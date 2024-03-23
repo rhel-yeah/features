@@ -1,6 +1,6 @@
 {
     "id": "rpm-terraform",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "name": "Terraform",
     "description": "Installs Terraform",
     "postCreateCommand": "terraform --version"
