@@ -1,1 +1,3 @@
+#!/bin/bash
+
 pre-commit run -a
