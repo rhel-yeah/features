@@ -15,6 +15,7 @@ jobs:
         features:
           - pre-commit
           - terraform
+          - gh-cli
         baseImage:
           - registry.access.redhat.com/ubi9
     steps:
