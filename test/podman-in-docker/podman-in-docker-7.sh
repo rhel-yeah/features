@@ -2,7 +2,4 @@
 
 check "RHEL Version" cat /etc/redhat-release | grep "release 7"
 
-alias docker=podman
-podman info
-docker --help
-docker pull docker.io/library/redis:latest
+echo "[INFO]: RHEL 7 support is available for those using paid subscriptions."
