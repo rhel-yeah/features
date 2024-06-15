@@ -1,5 +1,5 @@
 {
-    "id": "rpm-nomad",
+    "id": "nomad",
     "version": "0.1.0",
     "name": "Hashicorp Nomad",
     "description": "Installs Hashicorp Nomad",
