@@ -9,7 +9,8 @@
 			"userGid": "1000",
 			"upgradePackages": "true"
 		},
-		"ghcr.io/rhel-yeah/features/gh-cli":{}
+		"ghcr.io/rhel-yeah/features/gh-cli":{},
+		"ghcr.io/rhel-yeah/features/podman-in-docker":{}
 	},
     "privileged":true,
 	"postCreateCommand": "sudo sed -i 's/enabled=1/enabled=0/' /etc/yum/pluginconf.d/subscription-manager.conf"
