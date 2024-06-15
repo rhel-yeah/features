@@ -8,7 +8,8 @@
 			"userUid": "1000",
 			"userGid": "1000",
 			"upgradePackages": "true"
-		}
+		},
+		"ghcr.io/rhel-yeah/features/gh-cli":{}
 	},
     "privileged":true,
 	"postCreateCommand": "sudo sed -i 's/enabled=1/enabled=0/' /etc/yum/pluginconf.d/subscription-manager.conf"
