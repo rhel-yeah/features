@@ -13,7 +13,6 @@ jobs:
     strategy:
       matrix:
         features:
-          - pre-commit
           - terraform
           - gh-cli
         baseImage:
