@@ -1,6 +1,5 @@
 #!/bin/bash
 
 yum install -y git
-git init test-repo
-pushd test-repo
+git init .
 pre-commit run -a
