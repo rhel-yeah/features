@@ -1,7 +1,7 @@
 {
     "id": "podman-in-docker",
-    "version": "0.2.4",
+    "version": "0.3.0",
     "name": "Docker-in-Docker (with Podman)",
     "description": "Installs Podman and RHEL-based container tools. You have to have privileged execution enabled in your devcontainer.json file for this to work.",
     "postCreateCommand": "podman system migrate && alias docker=podman"
-    }
+}
