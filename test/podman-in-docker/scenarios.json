@@ -1,0 +1,14 @@
+{
+    "podman-in-docker-7":{
+        "privileged": true,
+        "image": "registry.access.redhat.com/ubi7"
+    },
+    "podman-in-docker-8":{
+        "privileged": true,
+        "image": "registry.access.redhat.com/ubi8"
+    },
+    "podman-in-docker-9":{
+        "privileged": true,
+        "image": "registry.access.redhat.com/ubi9"
+    }
+}
