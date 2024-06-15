@@ -1,0 +1,6 @@
+{
+    "id": "gh-cli",
+    "version": "0.0.1",
+    "name": "GitHub CLI",
+    "description": "Installs GitHub CLI for RHEL-based systems"
+    }
