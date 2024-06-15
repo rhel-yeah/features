@@ -2,22 +2,46 @@
     "podman-in-docker-7":{
         "privileged": true,
         "image": "ghcr.io/rhel-yeah/ubi-nosub:rhel-7",
+        "remoteUser": "vscode",
         "features":{
-            "podman-in-docker": {}
+            "podman-in-docker": {},
+            "ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+			"username": "vscode",
+			"userUid": "1000",
+			"userGid": "1000",
+			"upgradePackages": "true"
+		}
         }
     },
     "podman-in-docker-8":{
         "privileged": true,
         "image": "ghcr.io/rhel-yeah/ubi-nosub:rhel-8",
+        "remoteUser": "vscode",
         "features":{
-            "podman-in-docker": {}
+            "podman-in-docker": {},
+            "ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+			"username": "vscode",
+			"userUid": "1000",
+			"userGid": "1000",
+			"upgradePackages": "true"
+		}
         }
     },
     "podman-in-docker-9":{
         "privileged": true,
         "image": "ghcr.io/rhel-yeah/ubi-nosub:rhel-9",
+        "remoteUser": "vscode",
         "features":{
-            "podman-in-docker": {}
+            "podman-in-docker": {},
+            "ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": "true",
+			"username": "vscode",
+			"userUid": "1000",
+			"userGid": "1000",
+			"upgradePackages": "true"
+		}
         }
     }
 }
