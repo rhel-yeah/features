@@ -1,9 +1,7 @@
 #!/bin/bash
 
 yum update
-# Evaluate if the contents of /etc/redhat-release contain release 8
-# If it does, then the script will install the podman-docker package
-# If it does not, then the script will install the podman package
+
 if [[ $(cat /etc/redhat-release) == *"release 8"* ]]; then
     yum module enable -y container-tools:rhel8 
     yum module install -y container-tools:rhel8
