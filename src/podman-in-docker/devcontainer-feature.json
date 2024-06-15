@@ -1,0 +1,6 @@
+{
+    "id": "podman-in-docker",
+    "version": "0.1.0",
+    "name": "Docker-in-Docker (with Podman)",
+    "description": "Installs Podman and RHEL-based container tools. You have to have privileged execution enabled in your devcontainer.json file for this to work."
+    }

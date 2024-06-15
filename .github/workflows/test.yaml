@@ -15,6 +15,7 @@ jobs:
         features:
           - terraform
           - gh-cli
+          - podman-in-docker
         baseImage:
           - registry.access.redhat.com/ubi9
     steps:
