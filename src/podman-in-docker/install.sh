@@ -11,7 +11,7 @@ elif [[ $(cat /etc/redhat-release) == *"release 7"* ]]; then
     subscription-manager repos --enable=rhel-7-server-extras-rpms
     yum -y install podman
 elif [[ $(cat /etc/redhat-release) == *"release 9"* ]]; then
-    echo "Coming soon"
+    yum install -y podman 
 else
     echo "RHEL version found is not supported"
     exit 1
