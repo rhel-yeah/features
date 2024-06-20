@@ -10,7 +10,8 @@
 			"upgradePackages": "true"
 		},
 		"ghcr.io/rhel-yeah/features/gh-cli":{},
-		"ghcr.io/rhel-yeah/features/podman-in-docker":{}
+		"ghcr.io/rhel-yeah/features/podman-in-docker":{},
+		"ghcr.io/rhel-yeah/features/terraform":{}
 	},
     "privileged":true,
 	"postCreateCommand": ""
