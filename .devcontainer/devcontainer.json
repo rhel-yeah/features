@@ -1,5 +1,5 @@
 {
-    "image": "ghcr.io/rhel-yeah/ubi-nosub:rhel-9",
+    "image": "ghcr.io/rhel-yeah/ubi-nosub:rhel-8",
     "remoteUser": "vscode",
     "features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {
@@ -13,5 +13,5 @@
 		"ghcr.io/rhel-yeah/features/podman-in-docker":{}
 	},
     "privileged":true,
-	"postCreateCommand": "sudo sed -i 's/enabled=1/enabled=0/' /etc/yum/pluginconf.d/subscription-manager.conf"
+	"postCreateCommand": ""
 }
